@@ -80,10 +80,6 @@ function checkCooldown(player) {
     return 0;
 }
 
-
-
-
-
 system.beforeEvents.startup.subscribe((event)=>{
 
 
@@ -218,11 +214,6 @@ event.customCommandRegistry.registerCommand(
 
 
 });
-
-
-
-
-
 
 // ==========================
 // NORMAL GUESS
@@ -549,12 +540,6 @@ event.customCommandRegistry.registerCommand(
 
 
 });
-
-
-
-
-
-
 
 
 // ==========================
