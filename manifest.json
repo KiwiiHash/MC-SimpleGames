@@ -1,0 +1,52 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "SIMPLE GAMES",
+    "description": "-by KiwiiHash",
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ],
+    "uuid": "88086f8d-880e-4bf1-8c21-5fd339990562",
+    "version": [
+      1,
+      2,
+      0
+    ]
+  },
+  "metadata": {
+    "product_type": "addon",
+    "authors": [
+      "KiwiiHash"
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "4f5b016f-a34b-4d77-9e58-d456aab1763c",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "97d1219a-4589-4095-9d68-44c8de8bc25c",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0"
+    }
+  ]
+}
